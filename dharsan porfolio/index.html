@@ -1,72 +1,214 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#10101c">
-  <meta name="description" content="Dharsan S — Computer Science Engineering student and aspiring software developer. Explore my skills, projects, and ways to connect.">
-  <title>Dharsan S | Developer Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dharsan S | Developer Portfolio</title>
+
+    <meta name="description"
+        content="Personal portfolio of Dharsan S, Computer Science Engineering student and aspiring software developer.">
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  <header class="site-header">
-    <nav class="navbar" aria-label="Main navigation">
-      <a href="#home" class="logo" aria-label="Dharsan home">DHARSAN<span>.</span></a>
-      <ul class="nav-links" id="nav-links">
-        <li><a href="#home">Home</a></li><li><a href="#about">About</a></li><li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li><li><a href="#education">Education</a></li><li><a href="#contact">Contact</a></li>
-      </ul>
-      <div class="nav-actions">
-        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light theme" title="Toggle color theme">☼</button>
-        <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">☰</button>
-      </div>
-    </nav>
-  </header>
 
-  <main>
-    <section class="hero" id="home">
-      <div class="hero-content reveal">
-        <p class="eyebrow">Hello, I'm</p>
-        <h1>Dharsan <span>S</span></h1>
-        <h2>Aspiring Software Developer</h2>
-        <p class="hero-description">I’m a Computer Science Engineering student who enjoys learning how technology works and building useful things with code. This is my little corner of the web.</p>
-        <div class="hero-buttons"><a href="#projects" class="button primary">Explore my work <span aria-hidden="true">↗</span></a><a href="#contact" class="button secondary">Say hello <span aria-hidden="true">→</span></a></div>
-      </div>
-      <div class="hero-art" aria-label="Dharsan initials illustration"><div class="orbit"></div><div class="portrait-card"></div></div>
+    <!-- Navigation Bar -->
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">DHARSAN<span>.</span></a>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="greeting">HELLO, I'M</p>
+
+            <h1>Dharsan <span>S</span></h1>
+
+            <h2>Aspiring Software Developer</h2>
+
+            <p class="hero-description">
+                I am a Computer Science Engineering student
+                passionate about programming, technology
+                and building useful applications.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary-btn">
+                    View My Projects
+                </a>
+
+                <a href="#contact" class="btn secondary-btn">
+                    Contact Me
+                </a>
+            </div>
+
+        </div>
+
     </section>
 
-    <section id="about" class="section reveal">
-      <div class="section-heading"><p class="eyebrow">A little introduction</p><h2 class="section-title">About <span>Me</span></h2></div>
-      <div class="about-grid">
-        <div class="panel"><p>Hello! I'm Dharsan, a Computer Science Engineering student at KSR College of Engineering. I’m interested in software development, programming, and creating practical technology solutions.</p><p>I’m currently building my skills one project at a time. I believe curiosity and consistency are a good place to start, and this portfolio will grow as I do.</p></div>
-        <div class="quick-facts"><div class="fact"><strong>Computer Science</strong><span>My field of study</span></div><div class="fact"><strong>Always learning</strong><span>My current mindset</span></div><div class="fact"><strong>Open to connect</strong><span>Let’s share ideas</span></div></div>
-      </div>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-content">
+
+            <p>
+                Hello! I'm Dharsan, a Computer Science
+                Engineering student at KSR College of
+                Engineering.
+
+                I am interested in software development,
+                programming and creating practical
+                technology solutions.
+
+                My goal is to continuously improve my
+                technical skills and become a professional
+                software developer.
+            </p>
+
+        </div>
+
     </section>
 
-    <section id="skills" class="section reveal">
-      <div class="section-heading"><p class="eyebrow">Tools I’m learning</p><h2 class="section-title">My <span>Skills</span></h2></div>
-      <div class="skills-grid"><div class="skill-card"><span class="skill-icon">⌘</span>C Programming</div><div class="skill-card"><span class="skill-icon">🐍</span>Python</div><div class="skill-card"><span class="skill-icon">🌐</span>HTML</div><div class="skill-card"><span class="skill-icon">🎨</span>CSS</div><div class="skill-card"><span class="skill-icon">⚡</span>JavaScript</div></div>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills-container">
+
+            <div class="skill-card">C Programming</div>
+
+            <div class="skill-card">Python</div>
+
+            <div class="skill-card">HTML</div>
+
+            <div class="skill-card">CSS</div>
+
+            <div class="skill-card">JavaScript</div>
+
+        </div>
+
     </section>
 
-    <section id="projects" class="section reveal">
-      <div class="section-heading"><p class="eyebrow">Things I’ve made</p><h2 class="section-title">Featured <span>Projects</span></h2></div>
-      <div class="projects-grid">
-        <article class="project-card"><span class="project-number">PROJECT 01</span><h3>My Portfolio Website</h3><p>A personal website to introduce myself, share what I’m learning, and make it easy to get in touch.</p><div class="tags"><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span></div><a class="project-link" href="https://github.com/dharsan2030" target="_blank" rel="noopener noreferrer">View my GitHub <span aria-hidden="true">↗</span></a></article>
-        <article class="project-card"><span class="project-number">PROJECT 02</span><h3>More on the way</h3><p>I’m learning by making. Check back later to see what I build next, or follow along on GitHub.</p><div class="tags"><span class="tag">Learning</span><span class="tag">Building</span></div><a class="project-link" href="https://github.com/dharsan2030" target="_blank" rel="noopener noreferrer">Follow my journey <span aria-hidden="true">↗</span></a></article>
-      </div>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+
+                <h3>Project 01</h3>
+
+                <p>
+                    My first personal portfolio website,
+                    built using HTML, CSS and JavaScript.
+                </p>
+
+                <span>HTML | CSS | JavaScript</span>
+
+            </div>
+
+            <div class="project-card">
+
+                <h3>Project 02</h3>
+
+                <p>
+                    A new project will be added here
+                    as I continue learning and building.
+                </p>
+
+                <span>Coming Soon</span>
+
+            </div>
+
+        </div>
+
     </section>
 
-    <section id="education" class="section reveal">
-      <div class="section-heading"><p class="eyebrow">Where I’m learning</p><h2 class="section-title">My <span>Education</span></h2></div>
-      <div class="education-card"><div class="edu-icon" aria-hidden="true">🎓</div><div><h3>Bachelor of Engineering</h3><p>Computer Science and Engineering</p><p>KSR College of Engineering</p><p class="year">First Year</p></div></div>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+
+        <h2 class="section-title">Education</h2>
+
+        <div class="education-card">
+
+            <h3>Bachelor of Engineering</h3>
+
+            <p>Computer Science and Engineering</p>
+
+            <p>KSR College of Engineering</p>
+
+            <p>First Year</p>
+
+        </div>
+
     </section>
 
-    <section id="contact" class="section reveal">
-      <div class="contact-card"><div><div class="section-heading"><p class="eyebrow">Have an idea or just want to say hi?</p><h2 class="section-title">Let’s <span>Connect</span></h2></div><p>I’d love to hear from you. Find me on GitHub or LinkedIn, and let’s connect.</p><div class="contact-links"><a class="social-link" href="https://github.com/dharsan2030" target="_blank" rel="noopener noreferrer">⌘ GitHub ↗</a><a class="social-link" href="https://www.linkedin.com/in/dharsan-engg" target="_blank" rel="noopener noreferrer">in LinkedIn ↗</a></div></div><span class="eyebrow" aria-hidden="true">✦ &nbsp; Keep creating</span></div>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+
+        <h2 class="section-title">Let's Connect</h2>
+
+        <p class="contact-description">
+            Interested in connecting or collaborating?
+            Feel free to reach out.
+        </p>
+
+        <div class="contact-links">
+
+            <a href="https://github.com/dharsan2030"
+                target="_blank" rel="noopener noreferrer">
+                GitHub
+            </a>
+
+            <a href="https://www.linkedin.com/in/dharsan-engg"
+                target="_blank" rel="noopener noreferrer">
+                LinkedIn
+            </a>
+
+        </div>
+
     </section>
-  </main>
-  <footer class="footer"><p>© <span id="year"></span> Dharsan S. All rights reserved.</p><p>Designed and built with curiosity ✨</p></footer>
-  <script src="script.js"></script>
+
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 Dharsan S. All Rights Reserved.
+        </p>
+
+        <p>Designed and Built by Dharsan</p>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
 </body>
 </html>
